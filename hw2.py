@@ -8,6 +8,11 @@ Original file is located at
 
 ### Getting started notebook for HW2
 """
+from collections import namedtuple
+import altair as alt
+import math
+
+import streamlit as st
 
 import pandas as pd
 import numpy as np
