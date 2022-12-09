@@ -100,7 +100,7 @@ all_stocks['Sector_enc']=enc.fit_transform(all_stocks[['Sector']])
 
 """### Let's pick a stock to see what might be driving returns for that stock based on modeling the market"""
 
-pip install shap
+#pip install shap
 
 import shap
 import xgboost as xgb
